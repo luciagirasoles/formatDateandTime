@@ -1,0 +1,20 @@
+{
+  "name": "my-module",
+  "version": "1.0.0",
+  "description": "it returns Today  Yesterday and 1st, May 209 also time in \"H:mm am/pm\" format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciagirasoles/formatDateandTime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciagirasoles/formatDateandTime/issues"
+  },
+  "homepage": "https://github.com/luciagirasoles/formatDateandTime#readme"
+}
