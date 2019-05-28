@@ -1,13 +1,13 @@
 # Format Date
 It returns Today, yesterday, "Monday, May 20th"
 
-# Installation
+## Installation
 ```yarn add formatdate_codeable```
 
-# Usage
+## Usage
 ```const formatdateCodeable = require("formatdate_codeable");
    console.log(formatdateCodeable(new Date()));
 ```
 
-# NPM
+## NPM
 - https://www.npmjs.com/package/formatdate_codeable
