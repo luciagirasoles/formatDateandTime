@@ -1,5 +1,5 @@
 {
-  "name": "FormatDate",
+  "name": "luciagirasoles/FormatDate",
   "version": "1.0.0",
   "description": "It returns \"Today\"  \"Yesterday\" and \"1st, May 2019\" format",
   "main": "dist/index.js",
@@ -9,8 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle",
-    "dev": "microbundle watch",
-    "prepublish": "npm run build"
+    "dev": "microbundle watch"
   },
   "repository": {
     "type": "git",
