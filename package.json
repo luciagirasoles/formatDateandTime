@@ -1,20 +1,42 @@
 {
-  "name": "my-module",
+  "name": "FormatDate",
   "version": "1.0.0",
-  "description": "it returns Today  Yesterday and 1st, May 209 also time in \"H:mm am/pm\" format",
-  "main": "index.js",
+  "description": "It returns \"Today\"  \"Yesterday\" and \"1st, May 2019\" format",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luciagirasoles/formatDateandTime.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "date",
+    "time",
+    "format time"
+  ],
+  "author": "Mayra Navarro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/luciagirasoles/formatDateandTime/issues"
   },
-  "homepage": "https://github.com/luciagirasoles/formatDateandTime#readme"
+  "homepage": "https://github.com/luciagirasoles/formatDateandTime#readme",
+  "dependencies": {
+    "microbundle": "^0.11.0"
+  },
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
+  }
 }
