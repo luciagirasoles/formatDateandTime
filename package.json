@@ -1,5 +1,5 @@
 {
-  "name": "luciagirasoles/FormatDate",
+  "name": "formatdate_codeable",
   "version": "1.0.0",
   "description": "It returns \"Today\"  \"Yesterday\" and \"1st, May 2019\" format",
   "main": "dist/index.js",
